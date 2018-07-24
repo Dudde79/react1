@@ -1,4 +1,6 @@
 import React from 'react';
+import classNames from 'classnames';
+import './button.css';
 
 class Button extends React.Component {
     constructor(props) {
@@ -13,10 +15,12 @@ class Button extends React.Component {
     }
     
     render() {
+        const classes = classNames('button', this.props.className);
+
         return (
         <button
             type="button"
-            className={"danielbutton " + this.props.className }
+            className={classes}
             onClick={this.function1}>{ `${this.props.name} ${this.state.counter}` }
         </button>
         )

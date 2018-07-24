@@ -1,0 +1,22 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+
+@font-face {
+  font-family: 'Gingham';
+  src: url('fonts/gingham.woff2');
+}
+
+body { font-size: 16px; font-family: 'Raleway', sans-serif}
+
+.danielsklass {
+
+}  
+
+h1, h2, h3 {font-family: 'Josefin Slab','Open Sans', sans-serif; color: #94BED4;}
+
+h1 {font-size: 2rem;}
+
+h2 {font-size: 1.8rem;}
+
