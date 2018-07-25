@@ -11,7 +11,18 @@ class Button extends React.Component {
     }
     
     function1() {
-        this.setState({counter: this.state.counter + 1})
+        this.setState({counter: this.state.counter + 1});
+        //ny function, need break this out to its own file later
+        const url = 'https://jsonplaceholder.typicode.com/posts/1';
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                let myobject = data; 
+                let val = Object.entries(myobject);
+                document.querySelector('#root2').insertAdjacentHTML('afterbegin', val);
+            })
+            .catch(function(error){console.log('something went wrong')});
+        // end new function
     }
     
     render() {
