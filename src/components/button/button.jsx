@@ -20,6 +20,8 @@ class Button extends React.Component {
                 let myobject = data; 
                 let val = Object.entries(myobject);
                 document.querySelector('#root2').insertAdjacentHTML('afterbegin', val);
+                //this console-log just for testing gettint spesific data out
+                console.log(myobject.title);
             })
             .catch(function(error){console.log('something went wrong')});
         // end new function
