@@ -1,0 +1,27 @@
+.wrapper {
+    border: 2px solid pink;
+}
+
+.icon {
+    fill: red;
+
+}
+
+.icon-size-small {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-size-standard {
+    width: 32px;
+    height: 32px;
+}
+
+.icon-size-large {
+    width: 64px;
+    height: 64px;
+}
+
+.icon-angry {
+    fill: blue;
+}
