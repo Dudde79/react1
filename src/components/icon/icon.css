@@ -1,9 +1,21 @@
 .wrapper {
-    border: 2px solid pink;
+    border: 1px solid #999;
 }
 
+
+/* base icon setup */
 .icon {
-    fill: red;
+  fill: var(--primary-color);
+  box-sizing: border-box;    
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.2em;
+  /*margin-right: 10px;*/
+  /*fill: #fff;
+  stroke: black; 
+  stroke-width: 1;*/
+  /*border: 1px solid #090;*/
 
 }
 
@@ -23,5 +35,21 @@
 }
 
 .icon-angry {
-    fill: blue;
+    /*fill: hsl(30, 50%, 3%);*/
 }
+
+/* Animations */
+.spinn {
+    animation: infinite-spinning 4s infinite;
+}
+    
+@keyframes infinite-spinning {
+  from {
+    transform:rotateY(0deg);
+  }
+  to {
+    transform:rotateY(360deg);
+  }
+}
+
+  

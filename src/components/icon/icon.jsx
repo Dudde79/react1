@@ -18,11 +18,10 @@ class Icon extends React.Component {
       
   render() {
     return (
-      <div className={`wrapper icon-size-${this.props.size}`}>
-        <svg height='100%' width='100%' className={`icon icon-${this.props.icon}`}>
-          <use xlinkHref={`fa-regular.svg#${this.props.icon}`} />
+        <svg className={`icon spinn icon-${this.props.icon} icon-size-${this.props.size}`}>
+            <use xlinkHref={`fa-regular.svg#${this.props.icon}`} />
         </svg>
-      </div>
+      
     )
   }
 }

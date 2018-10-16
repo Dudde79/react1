@@ -8,11 +8,13 @@
   src: url('fonts/gingham.woff2');
 }
 
+
+:root {
+    --primary-color: hsl(204, 70%, 53%);
+    --secondary-color: hsl(24, 70%, 47%);
+}
+
 body { font-size: 16px; font-family: 'Raleway', sans-serif}
-
-.danielsklass {
-
-}  
 
 h1, h2, h3 {font-family: 'Josefin Slab','Open Sans', sans-serif; color: #94BED4;}
 

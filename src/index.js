@@ -5,15 +5,12 @@ import Icon from './components/icon/icon';
 import './main.css'
 
 ReactDOM.render(
-    <div>
-        <Button name='Min knapp' className='danielsklass' />
-        <Icon icon='angry'/>
-    </div>,
+    <Icon icon='angry'/>,
     document.getElementById('root')
 );
   
 
-
+//<Button name='Min knapp' className='danielsklass' />
 
 
 
